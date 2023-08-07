@@ -58,7 +58,7 @@ body {
     -webkit-font-smoothing: antialiased;
     display: grid;
     place-content: center;
-    margin:1rem;
+    height: 100vh;
     background-color: var(--clr-200);
   }
 
