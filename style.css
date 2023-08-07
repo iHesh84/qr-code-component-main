@@ -54,13 +54,13 @@ h6 {
 }
 
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  display: grid;
-  place-content: center;
-  height: 100vh;
-  background-color: var(--clr-200);
-}
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    display: grid;
+    place-content: center;
+    margin:1rem;
+    background-color: var(--clr-200);
+  }
 
 .product {
   border: 1px solid white;
@@ -69,7 +69,6 @@ body {
   overflow: hidden;
   background-color: var(--clr-100);
   padding: 0.75rem;
-  margin-top: 1.75rem;
 }
 
 .image {
